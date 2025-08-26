@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payoo Mobile</title>
+    <!-- daisyui cdn -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+    <!-- tailwind cdn -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+</head>
+<body class="bg-[#f4f5f7] h-[100vh] flex flex-col justify-center items-center">
+    <div class="h-28 w-64 bg-[url('assets/bg.png')] bg-cover flex justify-center items-center">
+        <img src="assets/Group.png" alt="">
+    </div>
+    <form action="" class="bg-white rounded-3xl p-6 w-80 ">
+        <div>
+            <label for="" class="text-base font-medium">Mobile Number</label> <br>
+            <input id="mobile-number" type="tel" placeholder="Enter your number" class="input bg-[#f4f5f7] mt-3 rounded-4xl border-none focus:outline-none"/>
+        </div>
+        <div class="my-4">
+            <label for="" class="text-base font-medium">4 Digit Pin</label> <br>
+            <input id="pin-number" type="password" placeholder="Enter 4 Digit Pin" class="input bg-[#f4f5f7] mt-3 rounded-4xl border-none focus:outline-none"/>
+        </div>
+        <button id="login-btn" class="btn bg-[#0874F2] w-full rounded-4xl text-white text-xl font-semibold px-5 py-3.5" type="button">Login</button>
+    </form>
+
+    <!-- js script  -->
+
+    <script src="script.js"></script>
+</body>
+</html>
